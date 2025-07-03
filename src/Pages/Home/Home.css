@@ -1,0 +1,56 @@
+.bannerContent h1{
+    font-size: 47px;
+    font-weight: 700;
+}
+.bannerContent h1 span {
+    color: #2699FB;
+}
+.bannerContent p,ul{
+    font-size: 20px;
+}
+
+.bannerContent ul{
+    list-style: none;
+    padding: 0;
+}
+
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.bannerForm p{
+    color: gray;
+}
+
+.homeRow{
+    margin-top: 80px;
+}
+
+.colItem{
+    color: #2699FB;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+
+    .bannerContent h1{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 28px;
+    }
+    .bannerContent br{
+        display:none;
+    }
+    .bannerContent p,ul {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
